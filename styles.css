@@ -40,6 +40,41 @@
   opacity: var(--opacity-value);
 }
 
+/* Media Queries for Tablet (768px) */
+@media screen and (max-width: 768px) {
+  /* Add any tablet-specific styles here */
+  .hero h1 {
+    font-size: 90px;
+  }
+  
+  .quotes .carousel-item img {
+    margin-left: 60px;
+  }
+  
+  .section .card {
+    width: 18rem;
+  }
+}
+
+/* Media Queries for Mobile (576px) - many already exist but verified */
+@media screen and (max-width: 576px) {
+  .hero h1 {
+    font-size: 61px;
+  }
+
+  .quotes {
+    height: auto;
+  }
+
+  .section .card {
+    width: 90vw;
+  }
+
+  .footer {
+    height: auto;
+  }
+}
+
 /* Header / Hero Styles */
 
 .header {
@@ -900,3 +935,4 @@
     width: 90vw;
   }
 }
+
